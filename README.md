@@ -13,3 +13,12 @@ ChooseSort<T> chsSorter = new ChooseSort<T>();
 MergeSort<T> mrgSorter = new MergeSort<T>();
 QuickSort<T> qckSorter = new QuickSort<T>();
 ```
+
+
+
+ The example of how you should implement new sorting algorithm:
+```
+internal class ShakeSort<T> : SorterClass<T> where T : IComparable
+{
+    public override void Sort(T[] array)
+```
