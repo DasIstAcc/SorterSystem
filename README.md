@@ -21,5 +21,8 @@ QuickSort<T> qckSorter = new QuickSort<T>();
 ```
 internal class ShakeSort<T> : SorterClass<T> where T : IComparable
 {
-    public override void Sort(T[] array)
+    public override void Sort(T[] array) {
+        
+    }
+}
 ```
